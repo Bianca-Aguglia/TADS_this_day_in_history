@@ -1,7 +1,7 @@
 Building the wikipedia_this_day_in_history dataset consists of three steps:
-1. [get day data][#1-get-day-data]
-2. [get link data][#2-get-link-data]
-3. [get image data][#3-get-image-data]
+1. [get day data](#1-get-day-data)
+2. [get link data](#2-get-link-data)
+3. [get image data](#3-get-image-data)
 
 The processes for each step are diagramed as shown below.
 
