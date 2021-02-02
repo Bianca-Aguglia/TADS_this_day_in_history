@@ -7,4 +7,4 @@ The three parts of the project are:
 
 Preliminary project diagram:
 
-<img src='.images/img_pc_project_diagram_01_01feb21.jpg'>
+<img src='./images/img_pc_project_diagram_01_01feb21.jpg'>
