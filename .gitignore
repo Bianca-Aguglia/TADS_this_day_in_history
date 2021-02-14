@@ -8,4 +8,8 @@ __pycache__
 */.ipynb_checkpoints
 
 # config files
-*/config*
+**/config*
+
+# scratchpad files
+**/*scratchpad*
+
