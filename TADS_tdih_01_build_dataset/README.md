@@ -1,10 +1,26 @@
-This repo is part one of a three part project whose end result is a web app where users can view and interact with this_day_in_history events. Users can also CRUD their own events. To make the exploration of events more engaging, events have geolocation data and a public domain image (if possible).
+This is part one of project TADS_this_day_in_history. The goal of this part is to build a dataset of events for each day of the year by using the Wikipedia API and by supplementing the Wikipedia data with other data that makes it possible to geoplot events and rank events based on importance.
 
-The three parts of the project are:
-1. build dataset <small>(this repo)</small>
-2. build backend API <small>(with option of making it public API </small>
-3. build webapp
 
-Preliminary project diagram:
+Building the TADS_this_day_in_history dataset consists of four steps:
+1. [get day data](#1-get-day-data)
+2. [get link data](#2-get-link-data)
+3. [get image data](#3-get-image-data)
+4. [supplement_data](#4-supplement-data)
 
-<img src='./images/img_pc_project_diagram_01_01feb21.jpg'>
+The processes for each step are diagramed as shown below.
+
+### 1. get day data
+
+![get_day_data_diagram](../images/process_flow_diagram_01_get_day_data.jpg "day_data_diagram")
+
+### 2. get link data
+
+![get_link_data_diagram](../images/process_flow_diagram_02_get_link_data.jpg "link_data_diagram")
+
+### 3. get image data
+
+![get_image_data_diagram](../images/process_flow_diagram_03_get_image_data.jpg "image_data_diagram")
+
+### 4. supplement data
+
+<small>diagram placeholder</small>
