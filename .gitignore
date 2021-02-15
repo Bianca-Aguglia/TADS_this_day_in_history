@@ -13,3 +13,6 @@ __pycache__
 # scratchpad files
 **/*scratchpad*
 
+# .db files (these will be added once I'm sure all data in db is correct)
+**/.db
+
