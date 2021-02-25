@@ -1,0 +1,60 @@
+:root {
+    --purple_dark: #572c43;
+    --gray_light: #f0f0f0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 99vw;
+    height: 100vh;
+    padding: 0 0.25rem;
+    margin: 0 auto;
+    background-color: var(--gray_light);
+}
+
+header {
+    background-color: var(--purple_dark);
+    color: var(--gray_light);
+    padding: 0.25rem;
+}
+
+header ul li {
+    padding-left: 0.5rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_sb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul_none {
+    list-style-type: none;
+}
+
+.img_rc {
+    border-radius: 50%;
+}
+
+.dash_map {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid rgba(125, 125, 125, 0.1);
+}
+
+.map {
+    height: 60vh;
+    width: 100%;
+}

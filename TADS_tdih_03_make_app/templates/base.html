@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>This day in history</title>
+        <link rel="stylesheet" href="../static/css/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+        <script src="../static/js/script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="flex_sb">
+                <h1>This Day In History</h1>
+                <ul class="ul_none flex_sb">
+                    <li>
+                        <a href="#">
+                            <img src="../static/img/icon_search_32_32.png" class="img_rc">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../static/img/icon_more_32_32.png" class="img_rc">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../static/img/icon_user_32_32.png" class="img_rc">
+                        </a>
+                    </li>
+                </ul>
+                
+            </header>
+
+            <div class="dash">
+                <div class="dash_nav">
+                    <div class="event_type">
+                        <h3 class="event_type_header">Events</h3>
+                        <ul class="ul_none">
+                            <li><input type="checkbox"> event 1</li>
+                            <li><input type="checkbox"> event 2</li>
+                            <li><input type="checkbox"> event 3</li>
+                            <li><input type="checkbox"> event 4</li>
+                            <li><input type="checkbox"> event 5</li>
+                        </ul>
+                        <!-- {% block events %}
+                        {% endblock %} -->
+                    </div>
+                    <div class="event_type">
+                        <h3 class="event_type_header">Births</h3>
+                        <ul class="ul_none">
+                            <li><input type="checkbox"> person 1</li>
+                            <li><input type="checkbox"> person 2</li>
+                            <li><input type="checkbox"> person 3</li>
+                            <li><input type="checkbox"> person 4 4</li>
+                            <li><input type="checkbox"> person 5</li>
+                        </ul>
+                        <!-- {% block events %}
+                        {% endblock %} -->
+                    </div>
+                    <div class="event_type">
+                        <h3 class="event_type_header">Deaths</h3>
+                        <ul class="ul_none">
+                            <li><input type="checkbox"> person 1</li>
+                            <li><input type="checkbox"> person 2</li>
+                            <li><input type="checkbox"> person 3</li>
+                            <li><input type="checkbox"> person 4 4</li>
+                            <li><input type="checkbox"> person 5</li>
+                        </ul>
+                        <!-- {% block events %}
+                        {% endblock %} -->
+                    </div>
+                    <div class="event_type">
+                        <h3 class="event_type_header">Holidays</h3>
+                        <ul class="ul_none">
+                            <li><input type="checkbox"> holiday 1</li>
+                            <li><input type="checkbox"> holiday 2</li>
+                            <li><input type="checkbox"> holiday 3</li>
+                            <li><input type="checkbox"> holiday 4 4</li>
+                            <li><input type="checkbox"> holiday 5</li>
+                        </ul>
+                        <!-- {% block events %}
+                        {% endblock %} -->
+                    </div>
+                </div>
+
+                <div class="dash_map">
+                    <div class="map" id="map"></div>
+                </div>
+
+                <div class="dash_time">
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+ 
+        </div>
+    </body>
+</html>
