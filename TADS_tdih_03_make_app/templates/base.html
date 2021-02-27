@@ -36,72 +36,77 @@
                 
             </header>
 
-            <div class="dash">
-                <div class="dash_nav">
+            <div class="dash flex_sb">
+                <div class="dash_nav ">
                     <div class="event_type">
                         <h3 class="event_type_header">Events</h3>
-                        <ul class="ul_none">
-                            <li><input type="checkbox"> event 1</li>
-                            <li><input type="checkbox"> event 2</li>
-                            <li><input type="checkbox"> event 3</li>
-                            <li><input type="checkbox"> event 4</li>
-                            <li><input type="checkbox"> event 5</li>
+                        <ul class="ul_none event_list">
+                            <li class="flex"><input type="checkbox"><span class="event_item"> event 1</span></li>
+                            <li class="flex"><input type="checkbox"><span class="event_item"> event 2</span></li>
+                            <li class="flex"><input type="checkbox"><span class="event_item"> event 3</span></li>
+                            <li class="flex"><input type="checkbox"><span class="event_item"> event 4</span></li>
+                            <li class="flex"><input type="checkbox"><span class="event_item"> event 5</span></li>
                         </ul>
                         <!-- {% block events %}
                         {% endblock %} -->
                     </div>
                     <div class="event_type">
                         <h3 class="event_type_header">Births</h3>
-                        <ul class="ul_none">
-                            <li><input type="checkbox"> person 1</li>
-                            <li><input type="checkbox"> person 2</li>
-                            <li><input type="checkbox"> person 3</li>
-                            <li><input type="checkbox"> person 4 4</li>
-                            <li><input type="checkbox"> person 5</li>
+                        <ul class="ul_none event_list">
+                            <li class="flex"><input type="checkbox"><span class="event_item"> person 1</span></li>
+                            <li class="flex"><input type="checkbox"><span class="event_item"> person 2</span></li>
+                            <li class="flex"><input type="checkbox"><span class="event_item"> person 3</span></li>
+                            <li class="flex"><input type="checkbox"><span class="event_item"> person 4</span></li>
+                            <li class="flex"><input type="checkbox"><span class="event_item"> person 5</span></li>
                         </ul>
-                        <!-- {% block events %}
+                        <!-- {% block births %}
                         {% endblock %} -->
                     </div>
                     <div class="event_type">
                         <h3 class="event_type_header">Deaths</h3>
-                        <ul class="ul_none">
-                            <li><input type="checkbox"> person 1</li>
-                            <li><input type="checkbox"> person 2</li>
-                            <li><input type="checkbox"> person 3</li>
-                            <li><input type="checkbox"> person 4 4</li>
-                            <li><input type="checkbox"> person 5</li>
+                        <ul class="ul_none event_list">
+                            <li class="flex"><input type="checkbox"><span class="event_item"> person 1</span></li>
+                            <li class="flex"><input type="checkbox"><span class="event_item"> person 2</span></li>
+                            <li class="flex"><input type="checkbox"><span class="event_item"> person 3</span></li>
+                            <li class="flex"><input type="checkbox"><span class="event_item"> person 4</span></li>
+                            <li class="flex"><input type="checkbox"><span class="event_item"> person 5</span></li>
                         </ul>
-                        <!-- {% block events %}
+                        <!-- {% block deaths %}
                         {% endblock %} -->
                     </div>
                     <div class="event_type">
                         <h3 class="event_type_header">Holidays</h3>
-                        <ul class="ul_none">
-                            <li><input type="checkbox"> holiday 1</li>
-                            <li><input type="checkbox"> holiday 2</li>
-                            <li><input type="checkbox"> holiday 3</li>
-                            <li><input type="checkbox"> holiday 4 4</li>
-                            <li><input type="checkbox"> holiday 5</li>
+                        <ul class="ul_none event_list">
+                            <li class="flex"><input type="checkbox"><span class="event_item"> holiday 1</span></li>
+                            <li class="flex"><input type="checkbox"><span class="event_item"> holiday 2</span></li>
+                            <li class="flex"><input type="checkbox"><span class="event_item"> holiday 3</span></li>
+                            <li class="flex"><input type="checkbox"><span class="event_item"> holiday 4</span></li>
+                            <li class="flex"><input type="checkbox"><span class="event_item"> holiday 5</span></li>
                         </ul>
-                        <!-- {% block events %}
+                        <!-- {% block holidays %}
                         {% endblock %} -->
                     </div>
                 </div>
 
-                <div class="dash_map">
-                    <div class="map" id="map"></div>
+                <div class="dash_map_and_time">
+                    <div class="dash_map">
+                        <div class="map" id="map"></div>
+                    </div>
+    
+                    <div class="dash_time flex_sb">
+                        <div class="circle"></div>
+                        <div class="line"></div>
+                        <div class="circle"></div>
+                        <div class="line"></div>
+                        <div class="circle"></div>
+                        <div class="line"></div>
+                        <div class="circle"></div>
+                        <div class="line"></div>
+                    </div>
+
                 </div>
 
-                <div class="dash_time">
-                    <div class="circle"></div>
-                    <div class="line"></div>
-                    <div class="circle"></div>
-                    <div class="line"></div>
-                    <div class="circle"></div>
-                    <div class="line"></div>
-                    <div class="circle"></div>
-                    <div class="line"></div>
-                </div>
+ 
             </div>
 
  

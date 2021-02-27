@@ -1,6 +1,9 @@
 :root {
-    --purple_dark: #572c43;
+    /* --purple_dark: #572c43; */
+    --purple_dark: #574B60;
     --gray_light: #f0f0f0;
+    --circle_radius: 16px;
+    --padding_section: 0.4rem;
 }
 
 * {
@@ -48,13 +51,60 @@ header ul li {
     border-radius: 50%;
 }
 
-.dash_map {
-    width: 80%;
-    padding: 10px;
-    border: 1px solid rgba(125, 125, 125, 0.1);
+.dash_nav {
+    align-self: start;
+    height: 80vh;
+    padding: var(--padding_section) 0;
+    width: 20%;
 }
 
+.event_list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 var(--padding_section);
+}
+
+.event_type_header {
+    background-color: var(--purple_dark);
+    color: var(--gray_light);
+    border-radius: 5px;
+    padding: 0.25rem var(--padding_section);
+}
+
+input[type=checkbox] {
+    transform: scale(0.7);
+    padding: var(--padding_section);
+}
+
+.event_item {
+    font-size: 0.9rem;
+    padding: var(--padding_section);
+}
+
+.dash_map_and_time {
+    width: 80%;
+    /* padding: 10px;
+    border: 1px solid rgba(125, 125, 125, 0.1); */
+}
+
+.dash_map, .dash_time {
+    padding: var(--padding_section);
+    border: 1px solid rgba(125, 125, 125, 0.1);
+}
 .map {
     height: 60vh;
     width: 100%;
+}
+
+.dash_time {
+    height: 20vh;
+}
+
+.circle {
+    height: var(--circle_radius);
+    width: var(--circle_radius);
+    background-color: var(--purple_dark);
+    border-radius: 50%;
+    display: inline-block;
 }
